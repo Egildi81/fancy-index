@@ -157,6 +157,7 @@ AddEncoding gzip svgz
   AddDescription "OpenDocument Spreadsheet Template" .ots
   AddDescription "OpenDocument Presentation Template" .otp
   AddDescription "OpenDocument Graphics Template" .otg
+  AddIcon /fancy-index/icons/VirtualBox.svg .ova .vbox
   AddDescription "YAML: Yet Another Markup Language" .yaml .yml
   AddDescription "SASS: Syntactically Awesome Stylesheets" .sass
   AddDescription "SCSS: Sassy Cascading Style Sheet" .scss
