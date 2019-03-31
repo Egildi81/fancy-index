@@ -1,3 +1,26 @@
   <script src="/fancy-index/script.js"></script>
+  <script src="/fancy-index/_js/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="/fancy-index/lightbox/js/lightbox.js" type="text/javascript"></script>
+	<script type="text/javascript">
+	  $("td.indexcolname").each( function() {
+      var Me_and_all = $(this).parent();
+      var PrevTD_Content = $(this).find( "img" );
+      var PrevTD_Content_attrib = PrevTD_Content.attr('src');
+      if (PrevTD_Content_attrib == "/fancy-index/icons/file-media.svg") {
+        var link= $(this).find( "a" );
+        $( link ).addClass( "example-image-link" );
+        $( link ).attr('title', link.value );
+        $( link ).attr('data-lightbox', 'example-set' );
+        $( link ).attr('data-title', decodeURIComponent(link.attr('href')) );
+      }
+    } );
+    lightbox.option({
+      'fadeDuration': 20,
+      'imageFadeDuration': 30,
+      'maxHeight': 800,
+      'resizeDuration': 20,
+      'wrapAround': true
+    })
+  </script>
 </body>
 </html>
