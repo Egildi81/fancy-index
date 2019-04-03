@@ -3,10 +3,11 @@
 A responsive Apache index page.
 
 Inpired by:
-+[Fancy-Index](https://github.com/Vestride/fancy-index) as fork and implemented some requests
-+[Seti UI](https://github.com/jesseweed/seti-ui)
-+[atom file-icons](https://github.com/file-icons/atom)
+  + [Fancy-Index](https://github.com/Vestride/fancy-index) as fork and implemented some requests
+  + [Seti UI](https://github.com/jesseweed/seti-ui)
+  + [atom file-icons](https://github.com/file-icons/atom)
 
+In addition there are an implementation of lightbox for images files
 
 ### Before Fancy Index:
 ![before fancy index](before.png)
@@ -41,4 +42,4 @@ If you want to hide some files or directories, for example the `fancy-index` dir
 3. Update the `IndexIgnore` directive with the path of files and directories to hide, separated by spaces.
 	* For example: `IndexIgnore .ftpquota .DS_Store .git /fancy-index`
 4. Save the changes.
-5. Reload apache server.
+5. Restart your webserver.
