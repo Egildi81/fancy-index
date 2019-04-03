@@ -52,6 +52,7 @@ AddEncoding gzip svgz
   # https://github.com/file-icons/source
   AddIcon /fancy-index/icons/file-binary.svg .com .exe
   AddIcon /fancy-index/icons/file-code.svg .c .h .mustache .rust .source .apache .yml .jade
+  AddIcon /fancy-index/icons/file-image.svg .png .jpg .jpeg .webp .gif .bmp .ico
   AddIcon /fancy-index/icons/file-media.svg .png .jpg .jpeg .webp .gif .bmp .mp4 .webm .ogv .mov .ico
   AddIcon /fancy-index/icons/file-pdf.svg .pdf
   AddIcon /fancy-index/icons/file-text.svg .txt .srt README readme Procfile
