@@ -7,7 +7,7 @@ Inpired by:
   + [Seti UI](https://github.com/jesseweed/seti-ui)
   + [atom file-icons](https://github.com/file-icons/atom)
 
-In addition there are an implementation of lightbox for images files
+In addition there are an implementation of [lightbox](https://github.com/lokesh/lightbox2) for images viewing files
 
 ### Before Fancy Index:
 ![before fancy index](before.png)
