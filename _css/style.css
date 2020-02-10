@@ -91,6 +91,7 @@ a:visited {
   align-items: center;
   margin-left: 0.625rem;
   margin-right: 0.625rem;
+  justify-content: space-between;
 }
 
 #search {
@@ -104,8 +105,10 @@ a:visited {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  margin-left: 1rem;
+  margin: auto;
+  margin-top : 5px;
   -webkit-appearance: textfield;
+  width:50%;
 }
 
 #search:focus {
