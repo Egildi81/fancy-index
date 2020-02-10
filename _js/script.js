@@ -78,7 +78,7 @@ function addTitle() {
 
   titleText = pathContents.join('&rsaquo;&nbsp;');
   
-  titleText = `Index of ${titleText}`;
+  titleText = `${titleText}`;
 
   const container = document.createElement('div');
   container.id = 'page-header';
