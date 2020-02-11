@@ -197,35 +197,8 @@ function addSearch() {
   filter('');
 }
 
-function changemode(){
-  document.body.style.backgroundColor = "#454545";
-  $("table").css({"background":"#454545"});
-  $("tr:odd").css({"background-color":"#454545"});
-  $("tr:even").css({"background-color":"#2c2c2c"});
-  $("a").css({"color":"whitesmoke"});
-  $("td").css({"color":"whitesmoke"});
-  
-	
-}
-
-function adddarkmode(){
-  const container = document.createElement('div');
-  container.id = 'bouttons';
-  document.getElementById('page-header').appendChild(container);
-
-  const btn = document.createElement('button');
-  btn.type = 'darkmode';
-  btn.id = 'darkmode';
-/*  btn.setAttribute('style', 'height:20px;width:20px; ');*/
-  btn.setAttribute('onclick', 'changemode()');
-  document.getElementById('bouttons').appendChild(btn);
-  btn.innerHTML = "Change mode";
-}
 fixTable();
 addTitle();
 fixTime();
 addSearch();
-adddarkmode();
-
-
 }

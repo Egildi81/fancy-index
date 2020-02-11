@@ -2,25 +2,17 @@ body {
   margin: 0;
   font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
   font-weight: 300;
-  color: #404040;
 }
 
 table {
   width: 100%;
-  background: white;
   border: 0;
   table-layout: auto;
 }
 
-table thead {
-  background: #efefef;
-}
-
-table tr th,
-table tr td {
+table tr th, table tr td {
   padding: 0.5625rem 0.625rem;
   font-size: 0.875rem;
-  color: #222222;
   text-align: left;
   line-height: 1.125rem;
 }
@@ -30,35 +22,28 @@ table thead tr th {
   font-weight: bold;
 }
 
-table tr.even {
-  background: whitesmoke;
-}
 h1{
   font-weight: 400;
   font-variant-ligatures: no-contextual;
   font-size: 18px;
-
 }
+
 h1 a {
   padding : 5px;
 }
+
 h1 a:hover{
 	border-radius: 3px;
-    background-color: whitesmoke;
 	padding : 5px;
-	
+    text-decoration: none;
 }
-a {
+
+a, a:visited {
   text-decoration: none;
-  color: #474747;
 }
 
 a:hover {
   text-decoration: underline;
-}
-
-a:visited {
-  color: #8e44ad;
 }
 
 .img-wrap {
@@ -99,8 +84,6 @@ a:visited {
   padding: 0.5rem 0.75rem;
   font-size: 1rem;
   line-height: 1.25;
-  color: #464a4c;
-  background-color: #fff;
   background-image: none;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
@@ -112,8 +95,62 @@ a:visited {
 }
 
 #search:focus {
-  border-color: #3498db;
   outline: 0;
+}
+
+/****************************** Theme Color */
+/* https://dev.to/ananyaneogi/create-a-dark-light-mode-switch-with-css-variables-34l8 */ 
+@media screen and (prefers-color-scheme: light) {
+  :root {
+    --BG: white;
+    --BGHeader: #efefef;
+    --TextColor: #404040;
+    --BgIndice1: whitesmoke;
+    --BgIndice2: snow;
+  }
+
+@media screen and (prefers-color-scheme: dark) {
+  :root {
+    --BG: #202125;
+    --BGHeader: #3c4043;
+    --TextColor: #d2d3d7;
+    --BgIndice1: #505357;
+    --BgIndice2: #3c4043;
+  }
+}
+body, table {
+  color: var(--TextColor);
+  background: var(--BG);
+}
+
+table thead {
+  background: var(--BGHeader);
+}
+
+table tr th, table tr td {
+  color: var(--TextColor);
+}
+
+table tr.even {
+  background: var(--BgIndice1);
+}
+
+h1 a:hover{
+  background-color: var(--BGHeader);
+}
+
+a, a:visited {
+  color: var(--TextColor);
+}
+
+#search {
+  color: var(--TextColor);
+  background: var(--BgIndice2);
+}
+
+#search:focus {
+  border-color: var(--BGHeader);
+  background:  var(--BgIndice1);
 }
 
 /* Hide extra columns so they don't squash file names */
