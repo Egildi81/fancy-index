@@ -108,7 +108,7 @@ a:hover {
     --BgIndice1: whitesmoke;
     --BgIndice2: snow;
   }
-
+}
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --BG: #202125;
