@@ -39,7 +39,8 @@ function fixTable() {
     if (!image) {
       return;
     }
-
+    image.className=(image.src.split('\\').pop().split('/').pop().split('.'))[0] +'SVG';
+    
     // Wrap icon in a div.img-wrap.
     const div = document.createElement('div');
     div.className = 'img-wrap';

@@ -9,6 +9,8 @@ Inpired by:
 
 In addition there are an implementation of [lightbox](https://github.com/lokesh/lightbox2) for images viewing files
 
+Natively support Dark and Light Mode
+
 ### Before Fancy Index:
 ![before fancy index](before.png)
 
