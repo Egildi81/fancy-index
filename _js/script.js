@@ -220,6 +220,7 @@
     btn.innerHTML = "Change mode";
   }
 
+  var theme = 'light';
 
   if (localStorage.getItem('theme')) {
     if (localStorage.getItem('theme') === 'dark') {
@@ -253,7 +254,6 @@
     theme_apply();
   }
   
-  var theme = 'light';
 
   fixTable();
   addTitle();

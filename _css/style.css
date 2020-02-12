@@ -109,9 +109,11 @@ a:hover {
     --BgIndice1: whitesmoke;
     --BgIndice2: snow;
 	/* https://stackoverflow.com/a/53336754 */ 
-	--fill : invert(24%) sepia(54%) saturate(378%) hue-rotate(168deg) brightness(88%) contrast(86%);
+
+	--filter : invert(19%) sepia(5%) saturate(6414%) hue-rotate(170deg) brightness(92%) contrast(70%); /* 34495e */
   }
 }
+
 @media screen and (prefers-color-scheme: dark) {
   :root {
     --BG: #202125;
@@ -119,9 +121,10 @@ a:hover {
     --TextColor: #d2d3d7;
     --BgIndice1: #505357;
     --BgIndice2: #3c4043;
-	--fill : invert(99%) sepia(5%) saturate(442%) hue-rotate(235deg) brightness(88%) contrast(92%);
+	--filter : invert(100%) sepia(9%) saturate(125%) hue-rotate(270deg) brightness(115%) contrast(92%);
   }
 }
+
 [data-theme="light"] {
     --BG: white;
     --BGHeader: #efefef;
@@ -129,15 +132,16 @@ a:hover {
     --BgIndice1: whitesmoke;
     --BgIndice2: snow;
 	/* https://stackoverflow.com/a/53336754 */ 
-	--fill : invert(24%) sepia(54%) saturate(378%) hue-rotate(168deg) brightness(88%) contrast(86%);
+	--filter : invert(19%) sepia(5%) saturate(6414%) hue-rotate(170deg) brightness(92%) contrast(70%);
 }
+
 [data-theme="dark"] {
     --BG: #202125;
     --BGHeader: #3c4043;
     --TextColor: #d2d3d7;
     --BgIndice1: #505357;
     --BgIndice2: #3c4043;
-	--fill : invert(99%) sepia(5%) saturate(442%) hue-rotate(235deg) brightness(88%) contrast(92%);
+	--filter: invert(100%) sepia(9%) saturate(125%) hue-rotate(270deg) brightness(115%) contrast(92%);
 }
 
 body, table {
@@ -176,7 +180,7 @@ a, a:visited {
 }
 
 .adobe-illustratorSVG, .adobe-photoshopSVG, .BabelSVG, .backSVG, .bowerSVG, .brainfuckSVG, .cobolSVG, .codeSVG, .coffeeSVG, .composerSVG, .configSVG, .cssSVG, .databaseSVG, .dockerSVG, .editor-configSVG, .eslintSVG, .file-binarySVG, .file-codeSVG, .file-directorySVG, .file-excelSVG, .file-imageSVG, .file-mediaSVG, .file-pdfSVG, .file-textSVG, .file-wordSVG, .file-zipSVG, .gearSVG, .gitSVG, .githubSVG, .gruntSVG, .gulpSVG, .htmlSVG, .javaSVG, .jsSVG, .lessSVG, .markdownSVG, .nodejsSVG, .npmSVG, .nunjucksSVG, .phpSVG, .postcssSVG, .pugSVG, .pythonSVG, .rollupSVG, .rubySVG, .sassSVG, .scssSVG, .settingsSVG, .shopifySVG, .sketchSVG, .stylusSVG, .svgSVG, .terminalSVG, .typescriptSVG, .vagrantSVG, .VirtualBoxSVG, .vueSVG, .webpackSVG, .xmlSVG, .yamlSVG, .yarnSVG { /* whitesmoke */
-  filter: var(--fill);
+  filter: var(--filter);
 }
 
 	
