@@ -179,7 +179,7 @@ a, a:visited {
   background:  var(--BgIndice1);
 }
 
-.adobe-illustratorSVG, .adobe-photoshopSVG, .BabelSVG, .backSVG, .bowerSVG, .brainfuckSVG, .cobolSVG, .codeSVG, .coffeeSVG, .composerSVG, .configSVG, .cssSVG, .databaseSVG, .dockerSVG, .editor-configSVG, .eslintSVG, .file-binarySVG, .file-codeSVG, .file-directorySVG, .file-excelSVG, .file-imageSVG, .file-mediaSVG, .file-pdfSVG, .file-textSVG, .file-wordSVG, .file-zipSVG, .gearSVG, .gitSVG, .githubSVG, .gruntSVG, .gulpSVG, .htmlSVG, .javaSVG, .jsSVG, .lessSVG, .markdownSVG, .nodejsSVG, .npmSVG, .nunjucksSVG, .phpSVG, .postcssSVG, .pugSVG, .pythonSVG, .rollupSVG, .rubySVG, .sassSVG, .scssSVG, .settingsSVG, .shopifySVG, .sketchSVG, .stylusSVG, .svgSVG, .terminalSVG, .typescriptSVG, .vagrantSVG, .VirtualBoxSVG, .vueSVG, .webpackSVG, .xmlSVG, .yamlSVG, .yarnSVG { /* whitesmoke */
+.adobe-illustratorSVG, .adobe-photoshopSVG, .backSVG,  .brainfuckSVG, .cobolSVG, .codeSVG, .coffeeSVG, .composerSVG, .configSVG, .file-binarySVG, .file-codeSVG, .file-directorySVG, .file-imageSVG, .file-mediaSVG, .file-pdfSVG, .file-textSVG, .file-zipSVG, .gearSVG, .githubSVG, .markdownSVG, .nunjucksSVG, .stylusSVG, .terminalSVG, .VirtualBoxSVG, .yamlSVG  { /* whitesmoke */
   filter: var(--filter);
 }
 
